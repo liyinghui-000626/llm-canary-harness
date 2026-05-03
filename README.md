@@ -77,3 +77,14 @@ LLM Canary Harness 的价值，不在于“再做一个 AI 应用”，而在于
 > **让大模型应用从 Demo 式迭代，走向可控、可观测、可止损、可复盘的工程化发布流程。**
 
 它帮助团队把 AI 版本迭代从“直接改配置上线”转变为“版本创建 → 灰度实验 → 指标观测 → 风险判断 → 回滚/扩量 → 实验复盘”的规范治理流程，从而显著提升企业 AI 应用上线的安全性与可运营性。
+## 项目效果图
+<img width="3356" height="1744" alt="66312d7b5be5aa5ec6282a4bb6fdc5d1" src="https://github.com/user-attachments/assets/19fd8623-2f61-4e9d-9abc-93254d691b26" />
+<img width="3354" height="1834" alt="100447d5f2d5c3a176b4b4208962577c" src="https://github.com/user-attachments/assets/29193303-2e8e-49e9-88ff-6b56a6dbbe6b" />
+<img width="3314" height="1896" alt="e2cdb14db0b7e129393b1c5eec5b937f" src="https://github.com/user-attachments/assets/c14790ae-ef17-4c91-ba29-520cd6f89d47" />
+<img width="3334" height="1884" alt="e8c09d738356486e199580e48177ef6b" src="https://github.com/user-attachments/assets/19df0938-8550-4289-bdf6-80902c56c834" />
+<img width="3356" height="1830" alt="cbd0959238a07e83f2d6a594251e3f13" src="https://github.com/user-attachments/assets/b20c173d-eb4e-4854-828b-27d2e988c54b" />
+<img width="3350" height="1764" alt="ef7f4a8a3ae887810c695a947e0f6509" src="https://github.com/user-attachments/assets/c72cfc9c-0ac0-4fd0-b803-e573c68a849c" />
+
+
+
+
