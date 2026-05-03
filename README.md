@@ -77,13 +77,25 @@ LLM Canary Harness 的价值，不在于“再做一个 AI 应用”，而在于
 > **让大模型应用从 Demo 式迭代，走向可控、可观测、可止损、可复盘的工程化发布流程。**
 
 它帮助团队把 AI 版本迭代从“直接改配置上线”转变为“版本创建 → 灰度实验 → 指标观测 → 风险判断 → 回滚/扩量 → 实验复盘”的规范治理流程，从而显著提升企业 AI 应用上线的安全性与可运营性。
-## 项目效果图
+###  应用管理页
+展示 Canary Console 的应用列表与基础信息，并支持新建治理应用，作为版本与实验配置的入口。
 <img width="3356" height="1744" alt="66312d7b5be5aa5ec6282a4bb6fdc5d1" src="https://github.com/user-attachments/assets/19fd8623-2f61-4e9d-9abc-93254d691b26" />
+### 实验联调页
+用于为应用创建和维护版本配置，包括 Prompt、模型地址与 RAG 参数，支撑后续实验分流。
 <img width="3354" height="1834" alt="100447d5f2d5c3a176b4b4208962577c" src="https://github.com/user-attachments/assets/29193303-2e8e-49e9-88ff-6b56a6dbbe6b" />
+### 项目效果图
+展示实验启动后的联调链路，串联 Admin、Gateway 和下游 RAG，直观看到请求是否成功打通。
 <img width="3314" height="1896" alt="e2cdb14db0b7e129393b1c5eec5b937f" src="https://github.com/user-attachments/assets/c14790ae-ef17-4c91-ba29-520cd6f89d47" />
+### Trace / 指标页
+汇总实验运行期间的请求 Trace、延迟、Token 用量、成本与决策结果，用于观测实验效果。
 <img width="3334" height="1884" alt="e8c09d738356486e199580e48177ef6b" src="https://github.com/user-attachments/assets/19df0938-8550-4289-bdf6-80902c56c834" />
+### 审批中心页
+展示扩量建议与风险等级，支持对实验进行人工审批或驳回，形成治理闭环。
 <img width="3356" height="1830" alt="cbd0959238a07e83f2d6a594251e3f13" src="https://github.com/user-attachments/assets/b20c173d-eb4e-4854-828b-27d2e988c54b" />
+### 回滚日志页
+用于在实验出现异常时执行手动回滚，并记录回滚原因与回滚历史，保证治理过程可追溯。
 <img width="3350" height="1764" alt="ef7f4a8a3ae887810c695a947e0f6509" src="https://github.com/user-attachments/assets/c72cfc9c-0ac0-4fd0-b803-e573c68a849c" />
+
 
 
 
